@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f3db8875-0797-413b-91c4-1ef1437c504b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/agency.css" afterPath="$PROJECT_DIR$/css/agency.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="Group-Website.iws" />
@@ -44,8 +43,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.1865009" vertical-offset="9244" max-vertical-offset="15204">
-              <caret line="472" column="32" selection-start-line="472" selection-start-column="32" selection-end-line="472" selection-end-column="32" />
+            <state vertical-scroll-proportion="0.687389" vertical-offset="16707" max-vertical-offset="22029">
+              <caret line="814" column="19" selection-start-line="814" selection-start-column="19" selection-end-line="814" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -54,7 +53,7 @@
       <file leaf-file-name="agency.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/agency.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="13595" max-vertical-offset="18312">
+            <state vertical-scroll-proportion="0.0" vertical-offset="13721" max-vertical-offset="18312">
               <caret line="655" column="46" selection-start-line="655" selection-start-column="46" selection-end-line="655" selection-end-column="46" />
               <folding />
             </state>
@@ -80,8 +79,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/agency.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -508,12 +507,12 @@
       <updated>1420660082778</updated>
       <workItem from="1420660084482" duration="86000" />
       <workItem from="1420660182931" duration="2273000" />
-      <workItem from="1420663242624" duration="9075000" />
+      <workItem from="1420663242624" duration="12372000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11434000" />
+    <option name="totallyTimeSpent" value="14731000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -645,7 +644,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/agency.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="13595" max-vertical-offset="18312">
+        <state vertical-scroll-proportion="0.0" vertical-offset="13721" max-vertical-offset="18312">
           <caret line="655" column="46" selection-start-line="655" selection-start-column="46" selection-end-line="655" selection-end-column="46" />
           <folding />
         </state>
@@ -653,8 +652,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.1865009" vertical-offset="9244" max-vertical-offset="15204">
-          <caret line="472" column="32" selection-start-line="472" selection-start-column="32" selection-end-line="472" selection-end-column="32" />
+        <state vertical-scroll-proportion="0.687389" vertical-offset="16707" max-vertical-offset="22029">
+          <caret line="814" column="19" selection-start-line="814" selection-start-column="19" selection-end-line="814" selection-end-column="19" />
           <folding />
         </state>
       </provider>
