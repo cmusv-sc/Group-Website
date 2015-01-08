@@ -653,7 +653,7 @@ aside.clients img {
 
 section#contact {
     background-color: #222;
-    background-image: url(../img/map-image.png);
+    background-image: url(../img/header-bg.jpg);
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -663,12 +663,12 @@ section#contact .section-heading {
 }
 
 section#contact .form-group {
-    margin-bottom: 25px;
+    margin-bottom: 5px;
 }
 
 section#contact .form-group input,
 section#contact .form-group textarea {
-    padding: 20px;
+    padding: 80px;
 }
 
 section#contact .form-group input.form-control {
