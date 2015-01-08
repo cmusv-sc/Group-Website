@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f3db8875-0797-413b-91c4-1ef1437c504b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/agency.css" afterPath="$PROJECT_DIR$/css/agency.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="Group-Website.iws" />
@@ -41,20 +40,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.1" vertical-offset="16812" max-vertical-offset="22029">
-              <caret line="805" column="37" selection-start-line="805" selection-start-column="37" selection-end-line="805" selection-end-column="37" />
+            <state vertical-scroll-proportion="0.6305506" vertical-offset="6302" max-vertical-offset="21399">
+              <caret line="317" column="28" selection-start-line="317" selection-start-column="28" selection-end-line="317" selection-end-column="28" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="agency.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="agency.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/agency.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5759076" vertical-offset="6770" max-vertical-offset="18375">
+            <state vertical-scroll-proportion="0.0" vertical-offset="5321" max-vertical-offset="18375">
               <caret line="339" column="19" selection-start-line="339" selection-start-column="19" selection-end-line="339" selection-end-column="19" />
               <folding />
             </state>
@@ -80,8 +79,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/agency.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -508,12 +507,12 @@
       <updated>1420660082778</updated>
       <workItem from="1420660084482" duration="86000" />
       <workItem from="1420660182931" duration="2273000" />
-      <workItem from="1420663242624" duration="14465000" />
+      <workItem from="1420663242624" duration="16012000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16824000" />
+    <option name="totallyTimeSpent" value="18371000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -643,18 +642,18 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/css/agency.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.1" vertical-offset="16812" max-vertical-offset="22029">
-          <caret line="805" column="37" selection-start-line="805" selection-start-column="37" selection-end-line="805" selection-end-column="37" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="5321" max-vertical-offset="18375">
+          <caret line="339" column="19" selection-start-line="339" selection-start-column="19" selection-end-line="339" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/agency.css">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5759076" vertical-offset="6770" max-vertical-offset="18375">
-          <caret line="339" column="19" selection-start-line="339" selection-start-column="19" selection-end-line="339" selection-end-column="19" />
+        <state vertical-scroll-proportion="0.6305506" vertical-offset="6302" max-vertical-offset="21399">
+          <caret line="317" column="28" selection-start-line="317" selection-start-column="28" selection-end-line="317" selection-end-column="28" />
           <folding />
         </state>
       </provider>
