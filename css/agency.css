@@ -331,7 +331,7 @@ section h2.section-heading {
 }
 
 section h3.section-subheading {
-    margin-bottom: 75px;
+    margin-bottom: 25px;
     text-transform: none;
     font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 16px;
@@ -663,7 +663,8 @@ section#contact .section-heading {
 }
 
 section#contact .form-group {
-    margin-bottom: 5px;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 section#contact .form-group input,
