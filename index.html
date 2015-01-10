@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Service Computing Group</title>
+    <title>Services Computing Group</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -23,7 +23,7 @@
     <link href='http://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
-
+    
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -76,7 +76,7 @@
         </div>
         <!-- /.container-fluid -->
     </nav>
-
+    <a href="#top" class="cd-top">Top</a>
     <!-- Header -->
     <header>
         <div class="container">
@@ -454,7 +454,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Project</h2>
+                    <h2 class="section-heading">Projects</h2>
                 </div>
             </div>
             <div class="row">
@@ -465,11 +465,10 @@
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/JPL_Cover.jpg" class="img-responsive" alt="">
+                        <img src="img/portfolio/JPL_Cover.jpg" class="img-responsive" height="200" width="300" alt="">
                     </a>
                     <div class="portfolio-caption">
                         <h4>Climate Model Analysis</h4>
-                        <p class="text-muted">project1</p>
                     </div>
                 </div>
                 <div class="col-md-4 portfolio-item">
@@ -479,11 +478,10 @@
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/nfv.jpg" class="img-responsive" alt="">
+                        <img src="img/portfolio/nfv.jpg" class="img-responsive" height="200" width="300" alt="">
                     </a>
                     <div class="portfolio-caption">
-                        <h4>Network Function Virtualization as a Service on Cloud</h4>
-                        <p class="text-muted">project2</p>
+                        <h4>Network Function Virtualization</h4>
                     </div>
                 </div>
 
@@ -698,7 +696,7 @@
                         <div class="row">
                             <div class="col-sm-4 col-sm-offset-2">
                                 <div class="team-member">
-                                    <img src="img/team/nasa.png" class="img-responsive img-circle" alt="">
+                                    <img src="img/team/nasa.jpg" class="img-responsive img-circle" height="150" width="150" alt="">
                                     <h4>NASA</h4>
                                     <p class="text-muted">Project Sponsor</p>
                                     <ul class="list-inline social-buttons">
@@ -713,7 +711,7 @@
                             </div>
                             <div class="col-sm-4">
                                 <div class="team-member">
-                                    <img src="img/team/dell.png" class="img-responsive img-circle" alt="">
+                                    <img src="img/team/dell.png" class="img-responsive img-circle" height="150" width="150" alt="">
                                     <h4>Dell</h4>
                                     <p class="text-muted">Project Sponsor</p>
                                     <ul class="list-inline social-buttons">
@@ -898,11 +896,37 @@
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
                             <!-- Project Details Go Here -->
-                            <h2>Project Name</h2>
-                            <p class="item-intro text-muted">[project abstract]</p>
-                            <img class="img-responsive" src="img/portfolio/roundicons-free.png" alt="">
-                            <p>describe your project</p>
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                            <h2 class="modal-head">CLIMATE MODEL ANALYSIS</h2>
+                            <p class="item-intro text-muted">JPL has provided a repository of web services for multi-aspect physics-based and phenomenon-oriented phenomenon-oriented climate model performance evaluation and diagnosis through the comprehensive and synergistic use of multiple observational data, reanalysis data, and model outputs. This Climate Model Analysis Project will help you learn the available web services, how to use them, and help you design your climate analytics workflows.</p>
+                            Currently we are providing APIs in 4 categores:
+                            <br>
+                            <br>
+                            Category 1: Manage Climate Services
+                            Add a climate service.
+                            Edit a climate service.
+                            Delete a climate service using service name
+                            Get a specific climate service using service name.
+                            Get all climate services.
+                            <br>
+                            Category 2: Manage Climate Service Execution Logs
+                            Add a service execution log
+                            Get all service execution logs from all users
+                            Get the service execution logs in a period of time from a specific user
+                            <br>
+                            Category 3: Manage Climate Service Parameters.
+                            Add a service parameter.
+                            Get all service parameters.
+                            <br>
+                            Category 4: Access Control(To Be Implemented).
+                            Add a user.
+                            Get a user.
+                            Add a sensor as a user.
+                            Get all sensors which has been added by a user.
+                            Get a specific sensor which has been added by a user.
+                            <p/>
+                            <div class="modal-head">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal" ><i class="fa fa-times"></i> Close Project</button>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -923,15 +947,16 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>Network Function Virtualization as a Service on Cloud</h2>
-                            <h3>sponsored by Dell</h3>
-                            <img class="img-responsive" src="img/portfolio/roundicons-free.png" alt="">
+                            <h2 class="modal-head">Network Function Virtualization as a Service on Cloud</h2>
+                            <h3 class="modal-head">sponsored by Dell</h3>
                             <p class="item-intro text-muted">Network Functions Virtualization (NFV) is a network architecture concept that proposes using IT virtualization related technologies to virtualize entire classes of network node functions into building blocks that may be connected, or chained, together to create communication services.
-                                Network Functions Virtualization (NFV) allows network operators to deploy network functions as virtualized software instances instead of dedicated hardware appliances.</p>
+                            Network Functions Virtualization (NFV) allows network operators to deploy network functions as virtualized software instances instead of dedicated hardware appliances.</p>
                             <p>Suppose that we are users and we want to request content data from server. Then server receive the content request and process the request with network functions including content router, content switch, content gateway and so on. However, in changing request environments, especially of real-time streaming data, the hardware solution lacks of scalability and elasticity.
-                                NFV solution can successfully solve this kind of problems.
-                                Most components of the Content Delivery Networks(CDN) can be potentially virtualized. To leverage the advantage of the NFV, some of the CDN functions are implemented as a software implementation of virtualized CDN functions.</p>
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                            NFV solution can successfully solve this kind of problems.
+                            Most components of the Content Delivery Networks(CDN) can be potentially virtualized. To leverage the advantage of the NFV, some of the CDN functions are implemented as a software implementation of virtualized CDN functions.</p>
+                            <div class="modal-head">
+                                <button type="button" class="btn btn-primary modal-head" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                            </div>
                         </div>
                     </div>
                 </div>
