@@ -76,7 +76,9 @@
         </div>
         <!-- /.container-fluid -->
     </nav>
-    <a href="#top" class="cd-top">Top</a>
+    <span id="top-link" class="hidden">
+        <a href="#top" class="cd-top">Top</a>
+    </span>
     <!-- Header -->
     <header>
         <div class="container">
@@ -1159,6 +1161,17 @@
 
     <!-- Custom Theme JavaScript -->
     <script src="js/agency.js"></script>
+    <script type="text/javascript">
+        $(window).bind("scroll",function() {
+            if($(document).scrollTop() > 400){
+                $('#top-link').removeClass('hidden');
+            }
+            if($(document).scrollTop() < 400){
+                $('#top-link').addClass('hidden');
+            }
+        });
+    </script>
+
 
 </body>
 
