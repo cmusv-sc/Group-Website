@@ -49,8 +49,7 @@ h1,
 h2,
 h3,
 h4,
-h5,
-h6 {
+h5{
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
@@ -943,3 +942,26 @@ body {
   }
 }
 
+h6{
+    margin: 0;     
+    color: #666;
+    padding-top: 90px;
+    font-size: 52px;
+    font-family: "trebuchet ms", sans-serif;    
+}
+.item{
+    background: #333;    
+    text-align: center;
+    height: 300px !important;
+}
+.carousel{
+    margin-top: 20px;
+}
+.bs-example{
+    margin: 20px;
+}
+
+span.span-news{
+    margin: 20px;
+    text-align: center;
+}
