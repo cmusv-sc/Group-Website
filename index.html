@@ -56,6 +56,9 @@
                         <a href="#page-top"></a>
                     </li>
                     <li>
+                        <a class="page-scroll" href="#news">News</a>
+                    </li>
+                    <li>
                         <a class="page-scroll" href="#research">Research</a>
                     </li>
                     <li>
@@ -85,18 +88,88 @@
             <div class="intro-text">
                 <div class="intro-lead-in">Welcome To Our Services Computing Group!</div>
                 <div class="intro-heading">It's Nice To Meet You</div>
-                <a href="#research" class="page-scroll btn btn-xl">Tell Me More</a>
+                <a href="#news" class="page-scroll btn btn-xl">Tell Me More</a>
             </div>
         </div>
     </header>
-
+    
+    <!-- News Section -->
+    <section id="news">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">News</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-8">
+                    <div id="carousel" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li class="slide-one active"></li>
+                            <li class="slide-two"></li>
+                            <li class="slide-three"></li>
+                        </ol>   
+                        <!-- Carousel items -->
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <h6>Slide 1</h6>
+                                <div class="carousel-caption">
+                                  <h3>First slide label</h3>
+                                  <p>blabla</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <h6>Slide 2</h6>
+                                <div class="carousel-caption">
+                                  <h3>Second slide label</h3>
+                                  <p>Aliquam sit amet gravida nibh, facilisis gravida…</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <h6>Slide 3</h6>
+                                <div class="carousel-caption">
+                                  <h3>Third slide label</h3>
+                                  <p>Praesent commodo cursus magna vel…</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Carousel nav -->
+                        <a class="carousel-control left">
+                            <span class="glyphicon glyphicon-chevron-left"></span>
+                        </a>
+                        <a class="carousel-control right">
+                            <span class="glyphicon glyphicon-chevron-right"></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-3 col-md-offset-1 row">
+                    <span class="span-news">
+                        <a href="#top">
+                            <img class="img-responsive" alt="" src= "img/bg.jpg" width="180px" height="100px">
+                        </a>
+                    </span>
+                    <span class="span-news">
+                        <a href="#top">
+                            <img class="img-responsive" alt="" src= "img/bg.jpg" width="180px" height="100px">
+                        </a>
+                    </span>
+                    <span class="span-news">
+                        <a href="#top">
+                            <img class="img-responsive" alt="" src= "img/bg.jpg" width="180px" height="100px">
+                        </a>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <br><br> <br> <br><br><br><br><br>
+    </secton>
+    
     <!-- Research Section -->
-    <section id="research">
+    <section id="research" class="bg-light-gray">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Research</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
                 </div>
             </div>
             <div class="row text-center">
@@ -129,7 +202,7 @@
     </section>
 
     <!-- Publication Grid Section -->
-    <section id="publication" class="bg-light-gray">
+    <section id="publication">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -452,7 +525,7 @@
     </section>
 
     <!-- Projcet Section -->
-    <section id="project">
+    <section id="project" class="bg-light-gray">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -492,7 +565,7 @@
     </section>
 
     <!-- Team Section -->
-    <section id="team" class="bg-light-gray">
+    <section id="team">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -521,7 +594,6 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">PhD Students</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
                 </div>
             </div>
 
@@ -825,7 +897,7 @@
             <!--</div>-->
         <!--</div>-->
     <!--</section>-->
-    <section id="contact">
+    <section id="contact" class="bg-light-gray">
         <div class = "row">
 
             <div class="col-md-4">
@@ -1169,6 +1241,27 @@
             if($(document).scrollTop() < 400){
                 $('#top-link').addClass('hidden');
             }
+        });
+        
+        $("#carousel").carousel();
+    
+        // Enable carousel control
+        $(".left").click(function(){
+            $("#carousel").carousel('prev');
+        });
+        $(".right").click(function(){
+            $("#carousel").carousel('next');
+        });
+        
+        // Enable carousel indicators
+        $(".slide-one").click(function(){
+            $("#carousel").carousel(0);
+        });
+        $(".slide-two").click(function(){
+            $("#carousel").carousel(1);
+        });
+        $(".slide-three").click(function(){
+            $("#carousel").carousel(2);
         });
     </script>
 
