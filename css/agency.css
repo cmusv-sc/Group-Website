@@ -49,8 +49,7 @@ h1,
 h2,
 h3,
 h4,
-h5,
-h6 {
+h5{
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
@@ -356,6 +355,10 @@ section h3.section-subheading {
     font-style: italic;
     font-weight: 400;
     color: #ffffff;
+}
+
+section.section-news {
+    padding: 0 !important;
 }
 
 @media(min-width:768px) {
@@ -802,7 +805,7 @@ ul.social-buttons li a:active {
 .portfolio-modal .modal-head {
     border: 0;
     border-radius: 0;
-    text-align: center;
+    text-align: right;
     background-clip: border-box;
     -webkit-box-shadow: none;
     box-shadow: none;
@@ -821,7 +824,7 @@ ul.social-buttons li a:active {
     margin: 20px 0 30px;
     font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 16px;
-    text-align: center;
+    text-align: justify;
     font-style: italic;
 }
 
@@ -943,3 +946,65 @@ body {
   }
 }
 
+h6{
+    margin: 0;     
+    color: #666;
+    padding-top: 90px;
+    font-size: 52px;
+    font-family: "trebuchet ms", sans-serif;    
+}
+.item{
+    background: #333;    
+    text-align: center;
+    height: 580px !important;
+}
+.carousel{
+    margin-top: 20px;
+}
+.bs-example{
+    margin: 20px;
+}
+
+span.span-news{
+    margin: 20px;
+    text-align: center;
+}
+
+#cta01 {
+    background: url(../img/1558726.jpg) no-repeat center top;
+    margin-top: 0px;
+    padding-top:100px;
+    text-align:center;
+    background-attachment: relative;
+    background-position: center center;
+    min-height: 350px;
+    width: 100%;
+
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#cta01 h1 {
+    color: white;
+    font-weight: 700;
+    margin-bottom: 25px;
+    font-size: 60px;
+}
+
+#cta01 h2 {
+    color: #ffffff;
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+#cta01 i {
+    color: white;
+    font-size: 45px;
+}

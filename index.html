@@ -16,6 +16,7 @@
 
     <!-- Custom CSS -->
     <link href="css/agency.css" rel="stylesheet">
+    <link href="css/hover_pack.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -23,7 +24,7 @@
     <link href='http://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
-    
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -56,6 +57,9 @@
                         <a href="#page-top"></a>
                     </li>
                     <li>
+                        <a class="page-scroll" href="#news">News</a>
+                    </li>
+                    <li>
                         <a class="page-scroll" href="#research">Research</a>
                     </li>
                     <li>
@@ -76,58 +80,180 @@
         </div>
         <!-- /.container-fluid -->
     </nav>
-    <a href="#top" class="cd-top">Top</a>
+    <span id="top-link" class="hidden">
+        <a href="#top" class="cd-top">Top</a>
+    </span>
     <!-- Header -->
     <header>
         <div class="container">
             <div class="intro-text">
                 <div class="intro-lead-in">Welcome To Our Services Computing Group!</div>
                 <div class="intro-heading">It's Nice To Meet You</div>
-                <a href="#research" class="page-scroll btn btn-xl">Tell Me More</a>
+                <a href="#news" class="page-scroll btn btn-xl">Tell Me More</a>
             </div>
         </div>
     </header>
-
-    <!-- Research Section -->
-    <section id="research">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Research</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+    
+    <!-- News Section -->
+    <section id="news" class="section-news">
+            <div id="carousel" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li class="slide-one active"></li>
+                    <li class="slide-two"></li>
+                    <li class="slide-three"></li>
+                    <li class="slide-four"></li>
+                </ol>   
+                <!-- Carousel items -->
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <a href="#news1" class="portfolio-link" data-toggle="modal">
+                            <img src="img/news1.png">
+                        </a>
+                        <div class="carousel-caption">
+                          <h3>Looking for 2 Ph.D. students</h3>
+                          <p>Fully financial sponsored, in the field of Service Oriented Computing and Scientific Collaboration.</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <a href="#news2" class="portfolio-link" data-toggle="modal">
+                            <img src="img/news2.jpg">
+                        </a>
+                        <div class="carousel-caption">
+                            <h3>ICWS 2015</h3>
+                            <p>June 27 - July 2, 2015, New York City, USA</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <a href="#news2" class="portfolio-link" data-toggle="modal">
+                            <img src="img/news3.jpg">
+                        </a>
+                        <div class="carousel-caption">
+                          <h3>CLOUD 2015</h3>
+                          <p>June 27 - July 2, 2015, New York City, USA</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <a href="#news2" class="portfolio-link" data-toggle="modal">
+                            <img src="img/news4.jpg">
+                        </a>
+                        <div class="carousel-caption">
+                            <h3>MS 2015</h3>
+                            <p>June 27 - July 2, 2015, New York City, USA</p>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="row text-center">
-                <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-shopping-cart fa-stack-1x fa-inverse"></i>
-                    </span>
-                    <h4 class="service-heading">Software Archietecture</h4>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
-                </div>
-                <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
-                    </span>
-                    <h4 class="service-heading">Responsive Web Service</h4>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
-                </div>
-                <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-lock fa-stack-1x fa-inverse"></i>
-                    </span>
-                    <h4 class="service-heading">Web Security</h4>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
-                </div>
+                <!-- Carousel nav -->
+                <a class="carousel-control left">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a class="carousel-control right">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
             </div>
         </div>
     </section>
+    
+    <!-- Research Section -->
+    <section id="research" class="bg-light-gray">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Research</h2>
+                    <hr>
+                    <h2 class="lead">Our research activities center around service oriented computing, with a focus on:</h2>
+                </div>
+            </div>
+
+            <div class="row mt">
+                <div class="col-lg-4 col-md-4 col-xs-12 desc">
+                    <a class="b-link-fade b-animate-go portfolio-link" href="#project2"  data-toggle="modal"><img width="350" src="img/workflow.jpg" alt="" />
+                        <div class="b-wrapper text-center">
+                            <h4 class="b-from-left b-animate b-delay03">Focus 1</h4>
+                            <p class="b-from-right b-animate b-delay03">Read More.</p>
+                        </div>
+                    </a>
+                    <p class = "text-center ">Scientific Workflow</p>
+                    <!--<p class="text-justify text-muted">Scientific workflows are scripts that call in data, programs, and other inputs and produce outputs that might include visualizations and analytical results.</p>-->
+
+                </div><!-- col-lg-4 -->
+
+                <div class="col-lg-4 col-md-4 col-xs-12 desc">
+                    <a class="b-link-fade b-animate-go portfolio-link" href="#project2"  data-toggle="modal"><img width="350" src="img/centralized.jpg" alt="" />
+                        <div class="b-wrapper">
+                            <h4 class="b-from-left b-animate b-delay03">Focus 2</h4>
+                            <p class="b-from-right b-animate b-delay03">Read More.</p>
+                        </div>
+                    </a>
+                    <p class = "text-center">Net-centric Collaboration</p>
+                    <!--<p class="text-muted">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>-->
+
+                </div><!-- col-lg-4 -->
+
+
+                <div class="col-lg-4 col-md-4 col-xs-12 desc">
+                    <a class="b-link-fade b-animate-go portfolio-link" href="#project2"  data-toggle="modal"><img width="350" src="img/internetofthings.jpg" alt="" />
+                        <div class="b-wrapper">
+                            <h4 class="b-from-left b-animate b-delay03">Focus 3</h4>
+                            <p class="b-from-right b-animate b-delay03">Read More.</p>
+                        </div>
+                    </a>
+                    <p class = "text-center">Internet of Things</p>
+                    <!--<p class="text-muted">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>-->
+
+                </div><!-- col-lg-4 -->
+
+                <div class="col-lg-4 col-md-4 col-xs-12  desc">
+                    <a class="b-link-fade b-animate-go portfolio-link" href="#project2"  data-toggle="modal"><img width="350" src="img/cloud.jpg" alt="" />
+                        <div class="b-wrapper">
+                            <h4 class="b-from-left b-animate b-delay03">Focus 4</h4>
+                            <p class="b-from-right b-animate b-delay03">Read More.</p>
+                        </div>
+                    </a>
+                    <p class = "text-center">Cloud Computing</p>
+                    <!--<p class="text-muted">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>-->
+
+                </div><!-- col-lg-4 -->
+
+                <div class="col-lg-4 col-md-4 col-xs-12 desc">
+                    <a class="b-link-fade b-animate-go portfolio-link" href="#project2"  data-toggle="modal"><img width="350" src="img/Big-Data.jpg" alt="" />
+                        <div class="b-wrapper">
+                            <h4 class="b-from-left b-animate b-delay03">Focus 5</h4>
+                            <p class="b-from-right b-animate b-delay03">Read More.</p>
+                        </div>
+                    </a>
+                    <p class = "text-center">Big Data Management</p>
+                    <!--<p class="text-muted">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>-->
+
+                </div><!-- col-lg-4 -->
+
+            </div><!-- /row -->
+
+
+
+        </div>
+        <div id="cta01">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <h1>SOC</h1>
+                        <h2 >From technology foundation perspective, Services Computing has become the default discipline in the modern services industry. As a major implementation technology for modernizing services industry, Web services are Internet-based programmable application components published using standard interface description languages and universally available via uniform communication protocols. </h2>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <button type="button" class="btn btn-cta btn-lg" href="#project5"  data-toggle="modal">LEARN MORE</button>
+                        <br>
+                        <br>
+                    </div>
+                </div><!-- /row -->
+            </div><!-- /container -->
+        </div><! --/cta01 -->
+    </section>
 
     <!-- Publication Grid Section -->
-    <section id="publication" class="bg-light-gray">
+    <section id="publication">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -450,7 +576,7 @@
     </section>
 
     <!-- Projcet Section -->
-    <section id="project">
+    <section id="project" class="bg-light-gray">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -490,7 +616,7 @@
     </section>
 
     <!-- Team Section -->
-    <section id="team" class="bg-light-gray">
+    <section id="team">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -519,7 +645,6 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">PhD Students</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
                 </div>
             </div>
 
@@ -823,7 +948,7 @@
             <!--</div>-->
         <!--</div>-->
     <!--</section>-->
-    <section id="contact">
+    <section id="contact" class="bg-light-gray">
         <div class = "row">
 
             <div class="col-md-4">
@@ -879,6 +1004,116 @@
         </div>
     </footer>
 
+
+    <!-- News -->
+    
+    <!-- News 1 -->
+    <div class="portfolio-modal modal fade" id="news1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2 class="modal-head">WE WANT YOU!</h2>
+                            <img src="img/Freedom.jpg" width="100%" height="100%">
+                            <div class="modal-head">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal" ><i class="fa fa-times"></i> Close News</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    <!-- News 2 -->
+    <div class="portfolio-modal modal fade" id="news2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2 class="modal-head">22nd IEEE International Conference on Web Services (ICWS)</h2>
+                            <p> IEEE International Conference on Web Services (ICWS) has been a prime international forum for both researchers and industry practitioners to exchange the latest fundamental advances in the state of the art and practice of Web-based services, identify emerging research topics, and define the future of Web-based services. All topics regarding Web-based services lifecycle study and management align with the theme of ICWS. In 2015, we will celebrate our 22nd version of gathering, to strive to advance the largest international professional forum on Web-based services.
+                            </p>
+                            <div class="modal-head">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal" ><i class="fa fa-times"></i> Close News</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- News 3 -->
+    <div class="portfolio-modal modal fade" id="news3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2 class="modal-head">8th IEEE International Conference on Cloud Computing (CLOUD)</h2>
+                            <p>Being the first IEEE conference dedicated on cloud computing, IEEE International Conference on Cloud Computing (CLOUD) has been a prime international forum for both researchers and industry practitioners to exchange the latest fundamental advances in the state of the art and practice of cloud computing, identify emerging research topics, and define the future of cloud computing. All topics regarding cloud computing align with the theme of CLOUD. In 2015, we will celebrate our 8th version of gathering, to strive to advance the largest international professional forum on cloud computing.</p>
+                            <div class="modal-head">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal" ><i class="fa fa-times"></i> Close News</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- News 4 -->
+    <div class="portfolio-modal modal fade" id="news4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2 class="modal-head">3rd IEEE International Conference on Mobile Services (MS)</h2>
+                            <p>Wireless and ubiquitous connectivity have enabled mobile computing and Internet access on the go as a life-enhancing and indispensable experience of modern life. More than 50 billion devices, in more than 200 device types, will likely be connected to the Internet by 2020 as integral components of a new generation of high-value application services for consumers and enterprises. API-defined mobile services have become essential ubiquitous services consumption and delivery enablers for many industries and government organizations worldwide. The 2015 IEEE International Conference on Mobile Services (MS) aims at providing an international forum that is dedicated to exploring different aspects of mobile services (from business management to computing systems, algorithms, and applications) and to promoting technological innovations in research and development of mobile services, including, but not limited to, wireless & sensor networks, mobile & wearable computing, mobile enterprise & eCommerce, ubiquitous collaborative & social services, machine-to-machine & Internet-of-things clouds, cyber-physical integration, and big data analytics for mobility-enabled services.
+                            </p>
+                            <div class="modal-head">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal" ><i class="fa fa-times"></i> Close News</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
     <!-- Projects -->
     <!-- These are projects we and other teams have -->
 
@@ -1024,6 +1259,34 @@
         </div>
     </div>
 
+    <div class="portfolio-modal modal fade" id="project5" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body text-justify">
+                            <h2 class="modal-head ">Service Oriented Computing</h2>
+                            <h3 class="modal-head text-right">SOC</h3>
+                            <p class="item-intro text-muted text-justify">Service Oriented Computing (SOC) focus on how to build and leverage software systems as a service to facilitate reusability, scalability, availability, and interoperability, in a networked environment.
+                                SOC has been significantly changing the way how software systems and applications are analyzed, architected, designed, implemented, tested, evaluated, delivered, consumed, maintained and evolved.
+                                Its comprising techniques have enabled the emergence of the contemporary third-generation software engineering: Service Oriented Software Engineering (SOSE).
+                                The latest technology trends (including cloud computing, big data, social networking, mobile computing, and Internet of Things) further emphasize the importance of SOC, since eventually, all software has to become services to be appreciated.</p>
+                             <div class="modal-head">
+                                <button type="button" class="btn btn-primary modal-head" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <div class="portfolio-modal modal fade" id="project3" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
@@ -1159,6 +1422,41 @@
 
     <!-- Custom Theme JavaScript -->
     <script src="js/agency.js"></script>
+    <script type="text/javascript">
+        $(window).bind("scroll",function() {
+            if($(document).scrollTop() > 400){
+                $('#top-link').removeClass('hidden');
+            }
+            if($(document).scrollTop() < 400){
+                $('#top-link').addClass('hidden');
+            }
+        });
+        
+        $("#carousel").carousel();
+    
+        // Enable carousel control
+        $(".left").click(function(){
+            $("#carousel").carousel('prev');
+        });
+        $(".right").click(function(){
+            $("#carousel").carousel('next');
+        });
+        
+        // Enable carousel indicators
+        $(".slide-one").click(function(){
+            $("#carousel").carousel(0);
+        });
+        $(".slide-two").click(function(){
+            $("#carousel").carousel(1);
+        });
+        $(".slide-three").click(function(){
+            $("#carousel").carousel(2);
+        });
+        $(".slide-four").click(function(){
+            $("#carousel").carousel(3);
+        });
+    </script>
+
 
 </body>
 
