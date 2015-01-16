@@ -94,75 +94,63 @@
     </header>
     
     <!-- News Section -->
-    <section id="news">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">News</h2>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-8">
-                    <div id="carousel" class="carousel slide" data-ride="carousel">
-                        <ol class="carousel-indicators">
-                            <li class="slide-one active"></li>
-                            <li class="slide-two"></li>
-                            <li class="slide-three"></li>
-                        </ol>   
-                        <!-- Carousel items -->
-                        <div class="carousel-inner">
-                            <div class="item active">
-                                <h6>Slide 1</h6>
-                                <div class="carousel-caption">
-                                  <h3>First slide label</h3>
-                                  <p>blabla</p>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <h6>Slide 2</h6>
-                                <div class="carousel-caption">
-                                  <h3>Second slide label</h3>
-                                  <p>Aliquam sit amet gravida nibh, facilisis gravida…</p>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <h6>Slide 3</h6>
-                                <div class="carousel-caption">
-                                  <h3>Third slide label</h3>
-                                  <p>Praesent commodo cursus magna vel…</p>
-                                </div>
-                            </div>
+    <section id="news" class="section-news">
+            <div id="carousel" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li class="slide-one active"></li>
+                    <li class="slide-two"></li>
+                    <li class="slide-three"></li>
+                    <li class="slide-four"></li>
+                </ol>   
+                <!-- Carousel items -->
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <a href="#news1" class="portfolio-link" data-toggle="modal">
+                            <img src="img/news1.png">
+                        </a>
+                        <div class="carousel-caption">
+                          <h3>Looking for 2 Ph.D. students</h3>
+                          <p>Fully financial sponsored, in the field of Service Oriented Computing and Scientific Collaboration.</p>
                         </div>
-                        <!-- Carousel nav -->
-                        <a class="carousel-control left">
-                            <span class="glyphicon glyphicon-chevron-left"></span>
+                    </div>
+                    <div class="item">
+                        <a href="#news2" class="portfolio-link" data-toggle="modal">
+                            <img src="img/news2.jpg">
                         </a>
-                        <a class="carousel-control right">
-                            <span class="glyphicon glyphicon-chevron-right"></span>
+                        <div class="carousel-caption">
+                            <h3>ICWS 2015</h3>
+                            <p>June 27 - July 2, 2015, New York City, USA</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <a href="#news2" class="portfolio-link" data-toggle="modal">
+                            <img src="img/news3.jpg">
                         </a>
+                        <div class="carousel-caption">
+                          <h3>CLOUD 2015</h3>
+                          <p>June 27 - July 2, 2015, New York City, USA</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <a href="#news2" class="portfolio-link" data-toggle="modal">
+                            <img src="img/news4.jpg">
+                        </a>
+                        <div class="carousel-caption">
+                            <h3>MS 2015</h3>
+                            <p>June 27 - July 2, 2015, New York City, USA</p>
+                        </div>
                     </div>
                 </div>
-                <div class="col-md-3 col-md-offset-1 row">
-                    <span class="span-news">
-                        <a href="#top">
-                            <img class="img-responsive" alt="" src= "img/bg.jpg" width="180px" height="100px">
-                        </a>
-                    </span>
-                    <span class="span-news">
-                        <a href="#top">
-                            <img class="img-responsive" alt="" src= "img/bg.jpg" width="180px" height="100px">
-                        </a>
-                    </span>
-                    <span class="span-news">
-                        <a href="#top">
-                            <img class="img-responsive" alt="" src= "img/bg.jpg" width="180px" height="100px">
-                        </a>
-                    </span>
-                </div>
+                <!-- Carousel nav -->
+                <a class="carousel-control left">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a class="carousel-control right">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
             </div>
         </div>
-        <br><br> <br> <br><br><br><br><br>
-    </secton>
+    </section>
     
     <!-- Research Section -->
     <section id="research" class="bg-light-gray">
@@ -953,6 +941,116 @@
         </div>
     </footer>
 
+
+    <!-- News -->
+    
+    <!-- News 1 -->
+    <div class="portfolio-modal modal fade" id="news1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2 class="modal-head">WE WANT YOU!</h2>
+                            <img src="img/Freedom.jpg" width="100%" height="100%">
+                            <div class="modal-head">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal" ><i class="fa fa-times"></i> Close News</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    <!-- News 2 -->
+    <div class="portfolio-modal modal fade" id="news2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2 class="modal-head">22nd IEEE International Conference on Web Services (ICWS)</h2>
+                            <p> IEEE International Conference on Web Services (ICWS) has been a prime international forum for both researchers and industry practitioners to exchange the latest fundamental advances in the state of the art and practice of Web-based services, identify emerging research topics, and define the future of Web-based services. All topics regarding Web-based services lifecycle study and management align with the theme of ICWS. In 2015, we will celebrate our 22nd version of gathering, to strive to advance the largest international professional forum on Web-based services.
+                            </p>
+                            <div class="modal-head">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal" ><i class="fa fa-times"></i> Close News</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- News 3 -->
+    <div class="portfolio-modal modal fade" id="news3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2 class="modal-head">8th IEEE International Conference on Cloud Computing (CLOUD)</h2>
+                            <p>Being the first IEEE conference dedicated on cloud computing, IEEE International Conference on Cloud Computing (CLOUD) has been a prime international forum for both researchers and industry practitioners to exchange the latest fundamental advances in the state of the art and practice of cloud computing, identify emerging research topics, and define the future of cloud computing. All topics regarding cloud computing align with the theme of CLOUD. In 2015, we will celebrate our 8th version of gathering, to strive to advance the largest international professional forum on cloud computing.</p>
+                            <div class="modal-head">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal" ><i class="fa fa-times"></i> Close News</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- News 4 -->
+    <div class="portfolio-modal modal fade" id="news4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2 class="modal-head">3rd IEEE International Conference on Mobile Services (MS)</h2>
+                            <p>Wireless and ubiquitous connectivity have enabled mobile computing and Internet access on the go as a life-enhancing and indispensable experience of modern life. More than 50 billion devices, in more than 200 device types, will likely be connected to the Internet by 2020 as integral components of a new generation of high-value application services for consumers and enterprises. API-defined mobile services have become essential ubiquitous services consumption and delivery enablers for many industries and government organizations worldwide. The 2015 IEEE International Conference on Mobile Services (MS) aims at providing an international forum that is dedicated to exploring different aspects of mobile services (from business management to computing systems, algorithms, and applications) and to promoting technological innovations in research and development of mobile services, including, but not limited to, wireless & sensor networks, mobile & wearable computing, mobile enterprise & eCommerce, ubiquitous collaborative & social services, machine-to-machine & Internet-of-things clouds, cyber-physical integration, and big data analytics for mobility-enabled services.
+                            </p>
+                            <div class="modal-head">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal" ><i class="fa fa-times"></i> Close News</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
     <!-- Projects -->
     <!-- These are projects we and other teams have -->
 
@@ -1262,6 +1360,9 @@
         });
         $(".slide-three").click(function(){
             $("#carousel").carousel(2);
+        });
+        $(".slide-four").click(function(){
+            $("#carousel").carousel(3);
         });
     </script>
 
