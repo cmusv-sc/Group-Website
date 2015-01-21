@@ -576,7 +576,7 @@ section.section-news {
         float: left;
         width: 41%;
         padding: 0 20px 20px 30px;
-        text-align: right;
+        text-align: justify;
     }
 
     .timeline>li .timeline-image {
@@ -595,7 +595,7 @@ section.section-news {
     .timeline>li.timeline-inverted>.timeline-panel {
         float: right;
         padding: 0 30px 20px 20px;
-        text-align: left;
+        text-align: justify;
     }
 }
 
