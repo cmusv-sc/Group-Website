@@ -675,7 +675,7 @@ aside.clients img {
 
 section#contact {
     background-color: #222;
-    background-image: url(../img/header-bg.jpg);
+    background-image: url(../img/ground02.jpg);
     background-position: center;
     background-repeat: no-repeat;
     height: auto;
@@ -1003,6 +1003,7 @@ span.span-news{
     color: #ffffff;
     font-size: 16px;
     margin-bottom: 40px;
+    text-transform:none;
 }
 
 #cta01 i {
